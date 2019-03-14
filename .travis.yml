@@ -29,4 +29,3 @@ deploy:
   script: bash scripts/deploy.sh
   on:
     all_branches: true
-

@@ -18,7 +18,7 @@ before_deploy:
 notifications:
   webhooks:
     urls:
-      - http://orthanc.localecho.net/cgi-bin/webhook.py
+      - http://dev.localecho.net:7654/announce
     on_success: always
     on_failure: always
 

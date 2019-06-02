@@ -19,7 +19,7 @@ notifications:
   webhooks:
     urls:
       - http://orthanc.localecho.net/cgi-bin/webhook.py
-      - http://dev.localecho.net:7654/announce
+      - http://announcer-dev.fuelrats.com/travis
     on_success: always
     on_failure: always
 

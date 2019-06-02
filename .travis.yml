@@ -18,7 +18,6 @@ before_deploy:
 notifications:
   webhooks:
     urls:
-      - http://orthanc.localecho.net/cgi-bin/webhook.py
       - https://announcer-dev.fuelrats.com/travis
     on_success: always
     on_failure: always
